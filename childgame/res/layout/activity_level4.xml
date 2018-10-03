@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaresimm"
+    android:columnCount="4"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.childgame.Level4" >
+
+    <Space
+        android:id="@+id/Space1"
+        android:layout_width="16dp"
+        android:layout_height="1dp"
+        android:layout_column="0"
+        android:layout_row="0" />
+
+    <Space
+        android:id="@+id/Space12"
+        android:layout_width="84dp"
+        android:layout_height="1dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_toRightOf="@+id/Space11" />
+
+    <Space
+        android:id="@+id/Space2"
+        android:layout_width="1dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/textView1"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space13"
+        android:layout_width="42dp"
+        android:layout_height="1dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_toRightOf="@+id/Space12" />
+
+    <Space
+        android:id="@+id/Space14"
+        android:layout_width="201dp"
+        android:layout_height="37dp"
+        android:layout_column="3"
+        android:layout_row="4" />
+
+    <Space
+        android:id="@+id/Space3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space7"
+        android:layout_width="1dp"
+        android:layout_height="292dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/Space1"
+        android:layout_column="0"
+        android:layout_row="1" />
+
+    <Space
+        android:id="@+id/Space8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space9"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space10"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <Space
+        android:id="@+id/Space11"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toRightOf="@+id/Space2"
+        android:layout_weight="0.15"
+        android:text="    Resimdeki Hangi Hayvan?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:layout_alignLeft="@+id/Space14"
+        android:layout_alignTop="@+id/Space7"
+        android:src="@drawable/kopek" />
+
+    <Button
+        android:id="@+id/onebutton"
+        style="@style/clickButton"
+        android:layout_width="103dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Space2"
+        android:text="KÖPEK"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/rightgreen"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/twobutton"
+        style="@style/yanlisButton"
+        android:layout_width="103dp"
+        android:layout_height="81dp"
+        android:layout_alignRight="@+id/imgbtn"
+        android:layout_below="@+id/Space2"
+        android:text="CEYLAN"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/threebutton"
+        style="@style/yanlisButton"
+        android:layout_width="103dp"
+        android:layout_height="81dp"
+        android:layout_alignBaseline="@+id/twobutton"
+        android:layout_alignBottom="@+id/twobutton"
+        android:layout_centerHorizontal="true"
+        android:text="KEDİ"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

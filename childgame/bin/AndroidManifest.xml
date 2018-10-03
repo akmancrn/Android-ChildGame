@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.childgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Level2"
+            android:label="@string/title_activity_level2" >
+        </activity>
+        <activity
+            android:name=".Level1"
+            android:label="@string/title_activity_level1" >
+        </activity>
+        <activity
+            android:name=".Level3"
+            android:label="@string/title_activity_level3" >
+        </activity>
+        <activity
+            android:name=".Level4"
+            android:label="@string/title_activity_level4" >
+        </activity>
+        <activity
+            android:name=".Level5"
+            android:label="@string/title_activity_level5" >
+        </activity>
+        <activity
+            android:name=".Level6"
+            android:label="@string/title_activity_level6" >
+        </activity>
+        <activity
+            android:name=".Level7"
+            android:label="@string/title_activity_level7" >
+        </activity>
+        <activity
+            android:name=".Level8"
+            android:label="@string/title_activity_level8" >
+        </activity>
+        <activity
+            android:name=".Level9"
+            android:label="@string/title_activity_level9" >
+        </activity>
+        <activity
+            android:name=".Level10"
+            android:label="@string/title_activity_level10" >
+        </activity>
+        <activity
+            android:name=".Son"
+            android:label="@string/title_activity_son" >
+        </activity>
+        <activity
+            android:name=".Meyveler1"
+            android:label="@string/title_activity_meyveler1" >
+        </activity>
+        <activity
+            android:name=".Meyveler2"
+            android:label="@string/title_activity_meyveler2" >
+        </activity>
+        <activity
+            android:name=".Meyveler3"
+            android:label="@string/title_activity_meyveler3" >
+        </activity>
+        <activity
+            android:name=".Meyveler4"
+            android:label="@string/title_activity_meyveler4" >
+        </activity>
+        <activity
+            android:name=".Meyveler5"
+            android:label="@string/title_activity_meyveler5" >
+        </activity>
+        <activity
+            android:name=".Meyveler6"
+            android:label="@string/title_activity_meyveler6" >
+        </activity>
+        <activity
+            android:name=".Meyveler7"
+            android:label="@string/title_activity_meyveler7" >
+        </activity>
+        <activity
+            android:name=".Meyveler8"
+            android:label="@string/title_activity_meyveler8" >
+        </activity>
+        <activity
+            android:name=".Meyveler9"
+            android:label="@string/title_activity_meyveler9" >
+        </activity>
+        <activity
+            android:name=".Meyveler10"
+            android:label="@string/title_activity_meyveler10" >
+        </activity>
+        <activity
+            android:name=".Mson"
+            android:label="@string/title_activity_mson" >
+        </activity>
+        <activity
+            android:name=".Meyveler"
+            android:label="@string/title_activity_meyveler" >
+        </activity>
+        <activity
+            android:name=".Sebzeler1"
+            android:label="@string/title_activity_sebzeler1" >
+        </activity>
+        <activity
+            android:name=".Sebzeler2"
+            android:label="@string/title_activity_sebzeler2" >
+        </activity>
+        <activity
+            android:name=".Sebzeler3"
+            android:label="@string/title_activity_sebzeler3" >
+        </activity>
+        <activity
+            android:name=".Sebzeler4"
+            android:label="@string/title_activity_sebzeler4" >
+        </activity>
+        <activity
+            android:name=".Sebzeler5"
+            android:label="@string/title_activity_sebzeler5" >
+        </activity>
+        <activity
+            android:name=".Sebzeler6"
+            android:label="@string/title_activity_sebzeler6" >
+        </activity>
+        <activity
+            android:name=".Sebzeler7"
+            android:label="@string/title_activity_sebzeler7" >
+        </activity>
+        <activity
+            android:name=".Sebzeler8"
+            android:label="@string/title_activity_sebzeler8" >
+        </activity>
+        <activity
+            android:name=".Sebzeler9"
+            android:label="@string/title_activity_sebzeler9" >
+        </activity>
+        <activity
+            android:name=".Sebzeler10"
+            android:label="@string/title_activity_sebzeler10" >
+        </activity>
+        <activity
+            android:name=".Sebzeler"
+            android:label="@string/title_activity_sebzeler" >
+        </activity>
+        <activity
+            android:name=".Sebzeler0"
+            android:label="@string/title_activity_sebzeler0" >
+        </activity>
+        <activity
+            android:name=".S1"
+            android:label="@string/title_activity_s1" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">childgame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_level2">Level2</string>
+    <string name="title_activity_level1">Level1</string>
+    <string name="title_activity_level3">Level3</string>
+    <string name="title_activity_level4">Level4</string>
+    <string name="title_activity_level5">Level5</string>
+    <string name="title_activity_level6">Level6</string>
+    <string name="title_activity_level7">Level7</string>
+    <string name="title_activity_level8">Level8</string>
+    <string name="title_activity_level9">Level9</string>
+    <string name="title_activity_level10">Level10</string>
+    <string name="title_activity_son">Son</string>
+    <string name="title_activity_meyveler1">Meyveler1</string>
+    <string name="title_activity_meyveler2">Meyveler2</string>
+    <string name="title_activity_meyveler3">Meyveler3</string>
+    <string name="title_activity_meyveler4">Meyveler4</string>
+    <string name="title_activity_meyveler5">Meyveler5</string>
+    <string name="title_activity_meyveler6">Meyveler6</string>
+    <string name="title_activity_meyveler7">Meyveler7</string>
+    <string name="title_activity_meyveler8">Meyveler8</string>
+    <string name="title_activity_meyveler9">Meyveler9</string>
+    <string name="title_activity_meyveler10">Meyveler10</string>
+    <string name="title_activity_mson">Mson</string>
+    <string name="title_activity_meyveler">Meyveler</string>
+    <string name="title_activity_sebzeler1">Sebzeler1</string>
+    <string name="title_activity_sebzeler2">Sebzeler2</string>
+    <string name="title_activity_sebzeler3">Sebzeler3</string>
+    <string name="title_activity_sebzeler4">Sebzeler4</string>
+    <string name="title_activity_sebzeler5">Sebzeler5</string>
+    <string name="title_activity_sebzeler6">Sebzeler6</string>
+    <string name="title_activity_sebzeler7">Sebzeler7</string>
+    <string name="title_activity_sebzeler8">Sebzeler8</string>
+    <string name="title_activity_sebzeler9">Sebzeler9</string>
+    <string name="title_activity_sebzeler10">Sebzeler10</string>
+    <string name="title_activity_sebzeler">Sebzeler</string>
+    <string name="title_activity_sebzeler0">Sebzeler0</string>
+    <string name="title_activity_s1">S1</string>
+
+</resources>

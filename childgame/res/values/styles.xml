@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+
+
+    
+    <color name="iceblue">#b9fcf2</color><style name="AppTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="clickButton" parent="@android:style/Widget.Button">
+<item name="android:background">@drawable/click_still</item>
+</style>
+      <color name="green">#c2f979</color><style name="yanlisButton" parent="@android:style/Widget.Button">
+<item name="android:background">@drawable/yanlis_click</item>
+</style>
+   
+   <color name="white">#ffffff</color><color name="blue">#0313c7</color>
+   <color name="lightblue">#bdfaf5</color><color name="pink">#fabdf2</color><color name="darkpink">#f513a4</color><color name="mediumblue">#0f99d1</color><style name="flatButton" parent="@android:style/Widget.Button">
+<item name="android:background">@drawable/flat_buton</item>
+  </style>
+   
+   
+   
+   
+   
+    
+
+</resources>
